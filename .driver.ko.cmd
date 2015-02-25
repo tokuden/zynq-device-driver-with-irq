@@ -1,0 +1,1 @@
+cmd_/home/tokuden/workspace/linux_driver/driver.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T /home/tokuden/linux-digilent/scripts/module-common.lds --build-id  -o /home/tokuden/workspace/linux_driver/driver.ko /home/tokuden/workspace/linux_driver/driver.o /home/tokuden/workspace/linux_driver/driver.mod.o
