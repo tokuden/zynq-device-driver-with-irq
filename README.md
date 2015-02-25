@@ -18,3 +18,8 @@ build.shも同様です。クロスコンパイラ(arm-xilinx-linux-gnueabi-な�
 hello.cがデバイスドライバの主要な部分になります。こちらをぜひご参照ください。  
 fpga_reg_util.cは、ioremap()などを利用した、AXIバス経由でのFPGA内のレジスタ読み書きなど、FPGAに依存した部分のコードになります。  
   
+### 参考 ###
+デバイスドライバとなるとあまり文献が多くないのですが("Linux Device Drivers, Third Edition"という本はとても分かりやすいです)、  
+以下のドライバのソースコードはとても助けになりました。
+cfake.c - kedr - A Framework for Dynamic Analysis of Linux Kernel Modules - Google Project Hosting <https://code.google.com/p/kedr/source/browse/sources/examples/sample_target/cfake.c>
+よろしければ、是非参考にしてみてください。
